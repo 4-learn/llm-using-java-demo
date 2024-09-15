@@ -9,7 +9,7 @@ public class ConversationWithModel {
 
     private static final String API_URL = "https://api-inference.huggingface.co/models/gpt2";
     // 將您的 Hugging Face access token 直接放入這裡
-    private static final String API_KEY = "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";
+    private static final String API_KEY = "";
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
