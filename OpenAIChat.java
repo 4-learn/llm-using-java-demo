@@ -16,7 +16,7 @@ public class OpenAIChat {
             
             // 定義請求的 JSON 內容
             String requestBody = "{\n" +
-                    "  \"model\": \"gpt-4\",\n" +
+                    "  \"model\": \"gpt-4o\",\n" +
                     "  \"messages\": [\n" +
                     "    {\"role\": \"system\", \"content\": \"You are a health management assistant. Your task is to analyze the user's health data and provide helpful advice.\"},\n" +
                     "    {\"role\": \"user\", \"content\": \"Here is my recent blood pressure reading: {\\\"systolic\\\": 135, \\\"diastolic\\\": 85, \\\"heart_rate\\\": 78, \\\"date\\\": \\\"2024-09-01\\\"}\"},\n" +
