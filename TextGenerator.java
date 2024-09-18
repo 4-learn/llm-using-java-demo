@@ -7,7 +7,7 @@ import java.io.InputStreamReader;
 public class TextGenerator {
 
     private static final String API_URL = "https://api-inference.huggingface.co/models/gpt2";
-    private static final String API_KEY = "";
+    private static final String API_KEY = "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";
 
     public static void main(String[] args) {
         try {
