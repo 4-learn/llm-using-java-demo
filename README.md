@@ -1,3 +1,2 @@
 # llm-using-java-demo
-javac ConversationWithModel.java
-java ConversationWithModel
+javac TextGenerator.java ; java TextGenerator
